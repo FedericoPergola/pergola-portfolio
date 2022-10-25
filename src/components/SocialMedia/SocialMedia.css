@@ -1,0 +1,34 @@
+.socialMedia-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    margin-top: 1rem;
+}
+
+.socialMedia-container ul{
+    display: flex;
+    gap: 8rem;
+    padding: 1rem;
+}
+
+.socialMedia-container ul li a{
+    color: white;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.socialMedia-container ul li a:hover{
+    color: var(--color-decoration);
+    transition: 0.5;
+}
+
+@media screen and (max-width: 785px){ 
+    .socialMedia-container ul li a{
+        font-size: 1.2rem;
+    }
+    .socialMedia-container ul{
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+}

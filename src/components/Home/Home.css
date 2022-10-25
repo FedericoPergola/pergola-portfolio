@@ -1,0 +1,12 @@
+.home{
+    background-color: var(--color-primary);
+}
+.info-content{
+    font-size: 3.5vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

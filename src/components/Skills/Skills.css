@@ -1,0 +1,26 @@
+#skills h2{
+    text-align: center;
+    font-size: 4rem;
+}
+
+#skills svg{
+    height: 10rem;
+    width: 5rem;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(150px,1fr)
+    );
+    gap: 2rem;
+    width: 70%;
+    max-width: 65rem;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.skills-logo h4{
+    font-size: 1.3rem;
+}
